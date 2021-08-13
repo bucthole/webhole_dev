@@ -5,7 +5,7 @@ _czc.push(["_setCustomVar", "standalone", ((window.matchMedia('(display-mode: st
 _czc.push(["_setCustomVar", "build_info", "%REACT_APP_BUILD_INFO%" || '---']);
 var cr_version = /Chrome\/(\d+)/.exec(navigator.userAgent);
 _czc.push(["_setCustomVar", "cr_version_test", cr_version ? cr_version[1] : '[null]', 2]);
-/*
+
 // track config
 try {
     var config=JSON.parse(localStorage['hole_config']||'{}');
@@ -16,7 +16,7 @@ try {
 } catch(e) {
     console.trace(e);
 }
-*/
+
 var cnzz_s_tag = document.createElement('script');
 cnzz_s_tag.type = 'text/javascript';
 cnzz_s_tag.async = true;
