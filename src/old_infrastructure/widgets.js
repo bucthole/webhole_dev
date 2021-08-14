@@ -68,6 +68,7 @@ export function GlobalTitle(props) {
     <div className="aux-margin">
       <div className="title">
         <p className="centered-line">{props.text}</p>
+        <p><a href="https://beian.miit.gov.cn/" target="_blank"> 京ICP备19020229号-7</a></p>
       </div>
     </div>
   );
