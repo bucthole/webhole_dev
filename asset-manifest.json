@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/css/main.0a152c67.chunk.css",
-    "main.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/main.fb26e811.chunk.js",
-    "main.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/main.fb26e811.chunk.js.map",
-    "runtime-main.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/runtime-main.483e6f7d.js",
-    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/runtime-main.483e6f7d.js.map",
-    "static/css/2.4306ed80.chunk.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/css/2.4306ed80.chunk.css",
-    "static/js/2.3388f935.chunk.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/2.3388f935.chunk.js",
-    "static/js/2.3388f935.chunk.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/2.3388f935.chunk.js.map",
+    "main.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/css/main.0a152c67.chunk.css",
+    "main.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/main.2b97af74.chunk.js",
+    "main.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/main.2b97af74.chunk.js.map",
+    "runtime-main.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/runtime-main.341ebebd.js",
+    "runtime-main.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/runtime-main.341ebebd.js.map",
+    "static/css/2.32016687.chunk.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/css/2.32016687.chunk.css",
+    "static/js/2.8e66ca8b.chunk.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/2.8e66ca8b.chunk.js",
+    "static/js/2.8e66ca8b.chunk.js.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/2.8e66ca8b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.4a5290c3f707f2013c6ec7321392e1d9.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/precache-manifest.4a5290c3f707f2013c6ec7321392e1d9.js",
+    "precache-manifest.528561ff0581c072563aaa8ff3ccc042.js": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/precache-manifest.528561ff0581c072563aaa8ff3ccc042.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/2.4306ed80.chunk.css.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/css/2.4306ed80.chunk.css.map",
-    "static/css/main.0a152c67.chunk.css.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/css/main.0a152c67.chunk.css.map",
-    "static/js/2.3388f935.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/js/2.3388f935.chunk.js.LICENSE.txt",
-    "static/media/katex.min.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole@gh-pages-master/static/media/KaTeX_Typewriter-Regular.b2e94149.eot"
+    "static/css/2.32016687.chunk.css.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/css/2.32016687.chunk.css.map",
+    "static/css/main.0a152c67.chunk.css.map": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/css/main.0a152c67.chunk.css.map",
+    "static/js/2.8e66ca8b.chunk.js.LICENSE.txt": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/js/2.8e66ca8b.chunk.js.LICENSE.txt",
+    "static/media/katex.min.css": "https://cdn.jsdelivr.net/gh/bucthole/webhole_dev@gh-pages-master/static/media/KaTeX_Typewriter-Regular.b2e94149.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.483e6f7d.js",
-    "static/css/2.4306ed80.chunk.css",
-    "static/js/2.3388f935.chunk.js",
+    "static/js/runtime-main.341ebebd.js",
+    "static/css/2.32016687.chunk.css",
+    "static/js/2.8e66ca8b.chunk.js",
     "static/css/main.0a152c67.chunk.css",
-    "static/js/main.fb26e811.chunk.js"
+    "static/js/main.2b97af74.chunk.js"
   ]
 }
