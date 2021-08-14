@@ -158,7 +158,9 @@ export function InfoSidebar(props) {
           &nbsp;for more details.
         </p>
       </div>
-    </div>
+      <div className="box help-desc-box">
+        <p><a href="https://beian.miit.gov.cn/" target="_blank"> 京ICP备19020229号-7</a></p>
+      </div>    </div>
   );
 }
 
