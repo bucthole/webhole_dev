@@ -73,74 +73,75 @@ export function GlobalTitle(props) {
   );
 }
 
-// const FALLBACK_APPS = {
-//   // id, text, url, icon_normal, icon_hover, new_tab
-//   bar: [
-//     ['hole', '树洞', '/hole', appicon_hole, null, false],
-//     [
-//       'imasugu',
-//       '教室',
-//       '/spare_classroom',
-//       appicon_imasugu,
-//       appicon_imasugu_rev,
-//       false,
-//     ],
-//     ['syllabus', '课表', '/syllabus', appicon_syllabus, null, false],
-//     ['score', '成绩', '/my_score', appicon_score, null, false],
-//   ],
-//   dropdown: [
-//     [
-//       'course_survey',
-//       '课程测评',
-//       'https://courses.pinzhixiaoyuan.com/',
-//       appicon_course_survey,
-//       null,
-//       true,
-//     ],
-//     ['homepage', '客户端', '/', appicon_homepage, null, true],
-//   ],
-//   fix: {},
-// };
-// const SWITCHER_DATA_VER='switcher_2';
-// const SWITCHER_DATA_URL=THUHOLE_API_ROOT+'web_static/appswitcher_items.json';
+const FALLBACK_APPS = {
+  // id, text, url, icon_normal, icon_hover, new_tab
+  bar: [
+    ['hole', '树洞', '/hole', appicon_hole, null, false],
+    [
+      'imasugu',
+      '教室',
+      '/spare_classroom',
+      appicon_imasugu,
+      appicon_imasugu_rev,
+      false,
+    ],
+    ['syllabus', '课表', '/syllabus', appicon_syllabus, null, false],
+    ['score', '成绩', '/my_score', appicon_score, null, false],
+  ],
+  dropdown: [
+    [
+      'course_survey',
+      '课程测评',
+      'https://courses.pinzhixiaoyuan.com/',
+      appicon_course_survey,
+      null,
+      true,
+    ],
+    ['homepage', '客户端', '/', appicon_homepage, null, true],
+  ],
+  fix: {},
+};
 
-// export class AppSwitcher extends Component {
-//     constructor(props) {
-//         super(props);
-//         this.state={
-//             apps: this.get_apps_from_localstorage(),
-//         }
-//     }
-//
-//     get_apps_from_localstorage() {
-//         let ret=FALLBACK_APPS;
-//         if(localStorage['APPSWITCHER_ITEMS'])
-//             try {
-//                 let content=JSON.parse(localStorage['APPSWITCHER_ITEMS'])[SWITCHER_DATA_VER];
-//                 if(!content || !content.bar)
-//                     throw new Error('content is empty');
-//
-//                 ret=content;
-//             } catch(e) {
-//                 console.error('load appswitcher items from localstorage failed');
-//                 console.trace(e);
-//             }
-//
-//         return ret;
-//     }
-//
-//     check_fix() {
-//         if(this.state.apps && this.state.apps.fix && this.state.apps.fix[this.props.appid])
-//             setTimeout(()=>{
-//                 window.HOTFIX_CONTEXT={
-//                     build_info: process.env.REACT_APP_BUILD_INFO || '---',
-//                     build_env: process.env.NODE_ENV,
-//                 };
-//                 eval(this.state.apps.fix[this.props.appid]);
-//             },1); // make it async so failures won't be critical
-//     }
-//
-//     componentDidMount() {
+const SWITCHER_DATA_VER='switcher_2';
+const SWITCHER_DATA_URL=BUCTHOLE_API_ROOT+'web_static/appswitcher_items.json';
+
+export class AppSwitcher extends Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            apps: this.get_apps_from_localstorage(),
+        }
+    }
+
+    get_apps_from_localstorage() {
+        let ret=FALLBACK_APPS;
+        if(localStorage['APPSWITCHER_ITEMS'])
+            try {
+                let content=JSON.parse(localStorage['APPSWITCHER_ITEMS'])[SWITCHER_DATA_VER];
+                if(!content || !content.bar)
+                    throw new Error('content is empty');
+
+                ret=content;
+            } catch(e) {
+                console.error('load appswitcher items from localstorage failed');
+                console.trace(e);
+            }
+
+        return ret;
+    }
+
+    check_fix() {
+        if(this.state.apps && this.state.apps.fix && this.state.apps.fix[this.props.appid])
+            setTimeout(()=>{
+                window.HOTFIX_CONTEXT={
+                    build_info: process.env.REACT_APP_BUILD_INFO || '---',
+                    build_env: process.env.NODE_ENV,
+                };
+                eval(this.state.apps.fix[this.props.appid]);
+            },1); // make it async so failures won't be critical
+    }
+
+// componentDidMount() {
 //         this.check_fix();
 //         setTimeout(()=>{
 //             fetch(SWITCHER_DATA_URL)
@@ -518,7 +519,7 @@ export function GlobalTitle(props) {
 //                   ref={this.username_ref}
 //                   type="email"
 //                   autoFocus={true}
-//                   defaultValue="@mails.tsinghua.edu.cn"
+//                   defaultValue="@mail.buct.edu.cn"
 //                 />
 //               </label>
 //               <span className="treehollow-login-type">
